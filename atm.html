@@ -1,0 +1,50 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link href="atm.css" rel="stylesheet" />
+    <title>Your Friendly ATM</title>
+  </head>
+  <body>
+    <!--When i wrote this, only god and i understood what was going on-->
+    <h1 class="bigTitle">Your friendly ATM!</h1>
+    <div class="container">
+      <h1 class="h1">Please complete with your informations</h1>
+      <form class="scris" action="#">
+        <div>
+          <label class="ID" for="ID">ID:</label>
+          <input
+            class="IDALT"
+            type="text"
+            id="fid"
+            name="fid"
+            placeholder=""
+            required
+          />
+        </div>
+
+        <div>
+          <label class="PIN" for="PIN">PIN:</label>
+          <input
+            class="CCT"
+            type="password"
+            id="PIN"
+            name="PIN"
+            placeholder=""
+            required
+          />
+        </div>
+        <div class="BTN">
+          <!-- <button class="button">Withdraw</button> -->
+          <button class="button2">Advance</button>
+          <!-- <button class="button3">Send</button> -->
+        </div>
+        <div class="feedback"></div>
+      </form>
+    </div>
+
+    <script src="atm.js"></script>
+  </body>
+</html>

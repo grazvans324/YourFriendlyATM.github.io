@@ -1,0 +1,224 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  height: 100vh;
+  background: url(photo-1565967511849-76a60a516170.jfif) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+
+.container {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  left: 650px;
+  top: 250px;
+  flex: 0 1 auto;
+  width: 400px;
+  height: 550px;
+  background: linear-gradient(-25deg, black, #444, black);
+  border-radius: 15px;
+  color: white;
+  position: relative;
+  overflow: auto;
+  resize: both;
+  text-shadow: 0 2px 2 black;
+  padding: 1.5rem 2rem;
+  box-shadow: 0 10px 50px -10px black;
+  /* overflow-y: scroll; */
+}
+
+.scris {
+  display: flex;
+  flex-direction: column;
+  margin: 60px 150px;
+  text-decoration: none;
+}
+.ID {
+  position: absolute;
+
+  color: white;
+  left: 80px;
+  top: 220px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.PIN {
+  position: absolute;
+
+  color: white;
+  left: 80px;
+  top: 280px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.CCT {
+  position: aboslute;
+
+  left: 183px;
+  top: 290px;
+  width: 200px;
+  position: absolute;
+
+  transform-origin: top left;
+  font-family: "Poppins", sans-serif;
+}
+
+.CCT:active {
+  border: none;
+}
+
+.IDALT {
+  position: aboslute;
+
+  left: 300px;
+  width: 200px;
+
+  transform-origin: top left;
+  font-family: "Poppins", sans-serif;
+}
+
+button {
+  position: absolute;
+  border: none;
+  transition: 0.4s ease-in;
+  z-index: 1;
+  transform-origin: top left;
+  width: 100px;
+  height: 50px;
+  font-family: "Poppins", sans-serif;
+}
+
+.button {
+  position: absolute;
+  top: 400px;
+  left: 78px;
+  font-size: 15px;
+}
+
+.button:hover {
+  background-color: lightcoral;
+}
+
+.button2 {
+  position: absolute;
+  top: 400px;
+  left: 178px;
+  font-size: 15px;
+}
+.button2:hover {
+  background-color: lightcoral;
+}
+.button3 {
+  position: absolute;
+  top: 400px;
+  left: 278px;
+  font-size: 15px;
+}
+
+.button3:hover {
+  background-color: lightcoral;
+}
+
+.success {
+  border: 5px solid limegreen;
+}
+
+.error {
+  border: 5px solid crimson;
+}
+
+.test {
+  position: absolute;
+  top: 470px;
+  left: 178px;
+  transition: 0.4s ease-in;
+  z-index: 1;
+  transform-origin: top left;
+  font-size: 15px;
+}
+.test:hover {
+  background-color: lightcoral;
+}
+
+a:visited {
+  color: black;
+}
+
+/* .btns {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+} */
+
+/* .valids {
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  min-height: 700px;
+  width: 400px;
+} */
+
+.withdraw {
+  position: absolute;
+  top: 190px;
+  left: 175px;
+  transition: 0.4s ease-in;
+  z-index: 1;
+  transform-origin: top left;
+  font-size: 15px;
+}
+
+.deposit {
+  position: absolute;
+  top: 290px;
+  left: 175px;
+  transition: 0.4s ease-in;
+  z-index: 1;
+  transform-origin: top left;
+  font-size: 15px;
+}
+
+.transfer {
+  position: absolute;
+  top: 390px;
+  left: 175px;
+  transition: 0.4s ease-in;
+  z-index: 1;
+  transform-origin: top left;
+  font-size: 15px;
+}
+
+.withdraw:hover {
+  background-color: lightcoral;
+}
+.transfer:hover {
+  background-color: lightcoral;
+}
+
+.deposit:hover {
+  background-color: lightcoral;
+}
+
+.bigTitle {
+  display: flex;
+  justify-content: center;
+  color: white;
+  margin-bottom: -120px;
+  margin-top: 70px;
+  font-size: 60px;
+  animation: fade 1s ease-in 1s;
+  pointer-events: none;
+  opacity: 0;
+}
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

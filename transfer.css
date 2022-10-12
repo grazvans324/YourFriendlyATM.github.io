@@ -1,0 +1,127 @@
+body {
+  font-family: "Poppins", sans-serif;
+  height: 100vh;
+  background: url(photo-1565967511849-76a60a516170.jfif) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+
+.container {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  left: 650px;
+  top: 250px;
+  flex: 0 1 auto;
+  width: 400px;
+  height: 600px;
+  background: linear-gradient(-25deg, black, #444, black);
+  border-radius: 15px;
+  color: white;
+  position: relative;
+  overflow: auto;
+  resize: both;
+  text-shadow: 0 2px 2 black;
+  padding: 1.5rem 2rem;
+  box-shadow: 0 10px 50px -10px black;
+  /* overflow-y: scroll; */
+}
+
+.info {
+  color: gray;
+  font-size: 15px;
+  margin-top: 25px;
+  font-style: italic;
+}
+
+.dolars {
+  color: darkgreen;
+  margin-left: 200px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.money {
+  font-size: 23px;
+  font-weight: bold;
+}
+.dolars.link {
+  text-decoration: underline;
+}
+
+.dolars:visited {
+  text-decoration: none;
+}
+
+.dolars.hover {
+  text-decoration: none;
+}
+
+.thousand {
+  position: absolute;
+  top: 550px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.fiveHundred {
+  position: absolute;
+  top: 460px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.twoHundred {
+  position: absolute;
+  top: 370px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.hundred {
+  position: absolute;
+  top: 280px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.yourBalance {
+  position: absolute;
+  font-size: 30px;
+  left: 300px;
+  top: 50px;
+  font-weight: bold;
+  color: lawngreen;
+}
+
+.curency {
+  position: absolute;
+  font-size: 30px;
+  left: 400px;
+  top: 50px;
+  font-weight: bold;
+  color: lawngreen;
+}
+
+.text {
+  color: lawngreen;
+
+  display: none;
+}
+
+.text1 {
+  color: lawngreen;
+
+  display: none;
+}
+.text22 {
+  color: lawngreen;
+
+  display: none;
+}
+.text3 {
+  color: lawngreen;
+
+  display: none;
+}
